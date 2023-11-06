@@ -22,7 +22,7 @@ void setup() {
   Serial.begin(9600);
 
   WiFi.mode(WIFI_STA);
-  WiFi.begin("Infinix NOTE 8", "090526921");
+  WiFi.begin("userSSID", "userpassword");
 
   while (WiFi.status() != WL_CONNECTED) {
     delay(200);
